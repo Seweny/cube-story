@@ -279,7 +279,7 @@
         AddMod(new ModGuiChat());
         AddMod(new ModScreenshot());
         AddMod(new ModAudio());
-
+        AddMod(new ModPlayerCords()); //CUSTOM
         s = new BlockOctreeSearcher();
         s.platform = platform;
 
